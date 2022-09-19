@@ -9,7 +9,10 @@
   list-style: none;
   text-decoration: none;
 }
-
+.container2{
+  max-width: 1290px;
+  margin: auto;
+}
 :root {
   --color-primary: #ec0c0c;
   --color-dark: #030203;
@@ -22,7 +25,7 @@
   --contanier-width-sm: 90%;
 }
 body {
-  background-image: url("./images/Rectangle2.jpg");
+  background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("./images/Rectangle2.jpg");
 }
 
 .container {

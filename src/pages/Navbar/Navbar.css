@@ -91,6 +91,10 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+} 
+.lists a{
+  color: black;
+  text-decoration: none;
 }
 .lists li:hover{
   color: white;

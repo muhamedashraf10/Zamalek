@@ -2,10 +2,11 @@ import React from "react";
 import "./Navbar.css";
 import { FaUserAlt } from "react-icons/fa";
 import logo from "../../images/zamalek-sc-logo-DBC71FD15E-see@2x.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="">
+    <nav className="container2">
       <div className="navs">
         <div className="nav1">
           <div className="btn-input">
@@ -26,8 +27,12 @@ const Navbar = () => {
         </div>
         <div className="nav2">
           <ul className="lists">
-            <li>الرئيسيه</li>
-            <li>الأخبار</li>
+            <Link to="/">
+              <li>الرئيسيه</li>
+            </Link>
+            <Link to="/home2">
+              <li>الأخبار</li>
+            </Link>
             <li>تاريخ النادي</li>
             <li>جدول المباريات</li>
             <li>فريق العمل</li>

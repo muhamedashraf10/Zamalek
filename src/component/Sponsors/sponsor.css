@@ -1,0 +1,16 @@
+.sponsor-section{
+}
+.sponsors{
+    width: 1280px;
+    margin: auto;
+    margin-top: 100px;
+}
+.sponsors ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.sponsors li img{
+    height: 120px;
+}

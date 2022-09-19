@@ -1,0 +1,44 @@
+.news{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    font-family: "changa";
+}
+.news-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.news-body{
+    margin: 20px 0;
+}
+.news-user{
+    font-weight: 600;
+}
+
+.crew-title{
+    font-family: "changa";
+    color:#ec0c0c;
+    font-size: 30px;
+    font-weight: 600;
+}
+.crew-sub{
+    font-family: "changa";
+    font-size: 18px;
+    font-weight: 500;
+}
+.crew-person img{
+    width: 200px
+}
+.crew-card{
+    color: white;
+    width: 200px;
+    height: 200px;
+    background-color: #da555a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
