@@ -1,0 +1,24 @@
+.news {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+.news-imge1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.news-imge1 img {
+  width: 30rem;
+}
+.news-imge2 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.imagess {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.news-imge2 .imgss {
+  width: 100%;
+  height: 27rem;
+}
