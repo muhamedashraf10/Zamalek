@@ -1,0 +1,24 @@
+.home-slider{
+    display: flex;
+    margin: auto;
+}
+.home-slider div{
+    margin-right: -230px;
+}
+.home-slider div img{
+height: 500px;
+}
+
+
+.slider-1{
+    position: relative;
+}
+.slider-1-title{
+    color: white;
+    font-family: "changa";
+    font-size: 25px;
+    font-weight: 600;
+    position: absolute;
+    top: 80%;
+    right: 70%;
+}
