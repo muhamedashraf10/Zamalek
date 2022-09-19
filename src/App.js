@@ -12,9 +12,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home1 />} />
-        <Route path="home1" element={<Home1 />} />
-        <Route path="home2" element={<Home2 />} />
-        <Route path="home3" element={<Home3 />} />
+        <Route path="/home1" element={<Home1 />} />
+        <Route path="/home2" element={<Home2 />} />
+        <Route path="/home3" element={<Home3 />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
